@@ -3,5 +3,8 @@ module.exports = {
     siteUrl: "https://www.yourdomain.tld",
     title: "My first attempt with gatsby",
   },
-  plugins: [],
+  plugins: [
+    `gatsby-plugin-image`,
+    `gatsby-plugin-sharp`,
+  ],
 };
